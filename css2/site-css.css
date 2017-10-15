@@ -1,0 +1,101 @@
+body, html {
+    height: 100%;
+    margin: 0;
+
+    /* The image used */
+    background-image: url;
+    background-color: lightgrey;
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:dimgray;
+}
+
+
+.footer{
+    width: 100%;
+    position:static;
+    left: 0;
+    bottom: 0;
+    color: black;
+    background-color: rgb(106, 66, 45);
+    text-align: center;
+}
+.left{
+      border: 5px solid white;
+      float:left;
+      width: 20%;
+      text-align:center;
+      margin-left: 10px;
+}
+.main {
+  float:left;
+  padding:0px 20px;
+  margin-top: 2px;
+}
+.right {
+  border: 5px solid white;
+  float:right;
+  width:20%;
+  margin-top:-60px;
+  text-align:center;
+  margin-right: 20px;
+}
+.h1{
+    font-size: 50px;    
+    width: 100%;
+}
+.com{
+    text-align: center;
+    border: 1px solid black;
+    width: 300;
+    height: 400;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.history{
+    font-family: 'Sofia';
+    align-content: center;
+    width: 80%;
+    display: block;
+    border: 1px solid black;
+}
+.font{
+    font-size: 18px;
+    font-family: monospace;
+}
